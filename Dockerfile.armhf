@@ -1,6 +1,5 @@
 #FROM golang:1.6
-FROM hypriot/rpi-golang:1.4.2
-
+FROM tiagofernandez/rpi-golang
 RUN mkdir -p /go/src/app
 WORKDIR /go/src/app
 
